@@ -14,4 +14,4 @@
   
   ## If you have followed through then the application should be up and running at 'localhost:3000'
   
-      ### will be updating for reactjs front end in a day.
+  ##### will be updating for reactjs front end in a day.
