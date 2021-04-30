@@ -1,7 +1,7 @@
 # auth_demo
 #### Make sure you have nodejs and mongodb configured locally
 
-# follow the steps to successfully run the auth_demo
+# Follow the steps to successfully run the auth_demo
   
   ### step-1: Download the repo to your computer
   
@@ -12,5 +12,5 @@
   ### step-4: run npm install nodemon in the terminal this will help re-run the app when ever you try to change something in app.js
   ### step-5: now make sure you are in the directory same as app.js and enter in the terminal <code>nodemon</code>
   
-  #### if you have followed through then the application should be up and running at 'localhost:3000'
+  #### If you have followed through then the application should be up and running at 'localhost:3000'
   
