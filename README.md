@@ -2,7 +2,7 @@
 
 A simple barebone demo for implementing Authentication is NodeJS. Make sure you have nodejs and mongodb configured locally
 
-## Follow the steps to successfully run the auth_demo
+## Setup Instructions
   
 1. Clone the repo
   
