@@ -16,7 +16,10 @@ This project here uses:
 In the project the mongoose is setup locally as `mongodb://localhost:27017/loginDemo` is the local URL.
 
 ```js
-mongoose.connect('mongodb://localhost:27017/loginDemo', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/loginDemo', { 
+        useNewUrlParser: true, 
+        useUnifiedTopology: true 
+    })
     .then(() => {
         console.log("Database Connected!")
     })
@@ -59,8 +62,8 @@ This description also includes the errors that needs to be thrown when the requi
 
 | Route | description | body | sessionID |
 |:---:|:---:|:---:|:---:|
-|/register|new users can register into the app|{username, password}| new sessionID created|
-|/login|already existing user can login to their account|{username, password}|new sessionID created|
+|/register|new users can register into the app|username, password| new sessionID created|
+|/login|already existing user can login to their account|username, password|new sessionID created|
 |/secret|"sessionID" is checked so only visible to loggedin users|None|None|
 |/logout|users can logout of the app|None|sessionID destroyed|
 
